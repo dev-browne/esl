@@ -21,7 +21,7 @@
   <noscript><h1 style="color: red;">Please enable JavaScript to access the database.</h1></noscript>
 
   <form action="{{ route('register') }}" method="post">
-    @csrf
+    @CSRF
     <div class="form-group">
       <label for="name" class="custom-colour">Username</label>
       <input type="text" name="name" class="form-control" id="name" placeholder="name">
