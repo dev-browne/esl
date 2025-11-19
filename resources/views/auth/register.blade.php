@@ -30,18 +30,18 @@
       <label for="email" class="custom-colour">Email</label>
       <input type="text" name="email" class="form-control" id="email" placeholder="Email">
     </div>
-  <div class="form-group pt-2 pb-3">
+  <div class="form-group">
       <label for="password" class="custom-colour">Password</label>
       <input type="password" name="password" class="form-control" id="password" placeholder="Password">
       </div>
-  <div class="form-group pt-2 pb-3">
+  <div class="form-group">
       <label for="password_confirmation" class="custom-colour">Confirm Password</label>
       <input type="password" name="password_confirmation" class="form-control" id="password" placeholder="Password">
       </div>
     <button type="submit" class="btn custom-bg text-light">Register</button>
 
     @if ($errors->any())
-      <ul class="px-4 py-2 mt-2 bg-danger bg-opacity-25">
+      <ul class="px-4 py-2 mt-2">
         @foreach ($errors->all() as $error)
           <li class="my-2 text-danger">{{ $error }}</li>
         @endforeach
