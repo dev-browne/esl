@@ -12,7 +12,7 @@
     </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary custom-bg navbar-dark">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary custom-bg navbar-dark p-0">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Easement Solutions</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,13 +21,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active p-3" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">My Files</a>
+          <a class="nav-link text-light p-3" href="#">My Files</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle text-light p-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Reports
           </a>
           <ul class="dropdown-menu">
@@ -37,24 +37,24 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">clients</a>
+          <a class="nav-link text-light p-3" href="#">clients</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Adopters</a>
+          <a class="nav-link text-light p-3" href="#">Adopters</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Job Types</a>
+          <a class="nav-link text-light p-3" href="#">Job Types</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Users</a>
+          <a class="nav-link text-light p-3" href="#">Users</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Change Password</a>
+          <a class="nav-link text-light p-3" href="#">Change Password</a>
         </li>
         <li class="nav-item">
 	<form action="{{ route('logout') }}" method="post">
          @CSRF
-         <button class="btn text-light"> Logout </button>
+         <button class="btn text-light p-3"> Logout </button>
         </form>
         </li>
 
