@@ -6,6 +6,10 @@
     color: #008196;
 }
 
-.custom btn-bg{
+.custom-btn-bg{
      background-color: #18bc9c;
+}
+
+.navbar-nav a.active{
+     background-color: black;
 }
